@@ -1,0 +1,11 @@
+vymaz.
+
+vydej:
+kiw, 1.
+
+najdi:kiw.
+
+najdi:kiwi.
+
+vydej:
+kiwi, 1.
