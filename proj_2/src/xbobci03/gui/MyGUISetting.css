@@ -1,0 +1,23 @@
+#textView {
+    -fx-control-inner-background: #18191A;
+    -fx-background-color: #18191A;
+    -fx-border-color: #ffffff;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+    -fx-font-size: 14;
+    -fx-text-fill: #ffffff;
+    -fx-prompt-text-fill: #b0b3b8;
+    -fx-font-family: 'System';
+}
+
+#button {
+    -fx-background-color: #3A3B3C;
+    -fx-border-color: #ffffff;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+    -fx-font-size: 12;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
