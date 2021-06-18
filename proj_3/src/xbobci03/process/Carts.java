@@ -407,7 +407,6 @@ public class Carts {
                     
                     pathArr = ifWall.getPathArr();
                     actualPos = ifWall.getActualPos();
-                    
 
                     int cartNum = removePathVis(cartCon);
                     setPathVis(cartCon, cartNum, pathArr);
@@ -425,7 +424,7 @@ public class Carts {
                     }catch(InterruptedException e){
                         Thread.currentThread().interrupt();
                     }
-                //}
+                    
                     if(storage.getShelfList().get(actualPos).isWall){
                         ReturnValue ifWall = updatePathIfWall(cartCon, prevPos, prevPrevPos, xFin, yFin, item, issue, parking);
                         if(ifWall.getWhileOper() < 0){
@@ -440,8 +439,7 @@ public class Carts {
 
                         continue;
                     }
-                
-                //if(prevPos > -1){
+                    
                     Shelf cell = storage.getShelfList().get(prevPos);
                     cell.getCart().remove(cartCon);
                     ImageView img = imgList.get(prevPos).getImg();
